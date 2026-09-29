@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.ros.org/schema/package_format3.xsd"?>
+<package format="3">
+  <name>pubsub_multilang</name>
+  <version>0.0.1</version>
+  <description>Comunicación Publisher/Subscriber en ROS 2 usando C++ y Python</description>
+  <maintainer email="estudiante@ejemplo.com">Estudiante</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
